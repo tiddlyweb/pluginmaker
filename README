@@ -10,6 +10,9 @@ your plugin. Edit setup.py to set the variables at the top of the
 file. Edit your plugin file to add the necessary code. Edit this
 README so it provides a description of the plugin.
 
+Put some tests, if you wish, in the tests dir. TiddlyWeb uses py.test
+as its testing harness. http://pytest.org/
+
 See http://www.python.org/~jeremy/weblog/030924.html for some
 info on how to register for PyPI.
 

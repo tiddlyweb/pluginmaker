@@ -12,10 +12,10 @@ clean:
 test:
 	py.test -x test
 
-dist:
+dist: test
 	python setup.py sdist
 
 upload: clean pypi
 
-pypi:
-	python setup.py sdist upload
+pypi: dist
+	python setup.py upload
