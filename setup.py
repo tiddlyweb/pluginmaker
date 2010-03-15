@@ -19,9 +19,9 @@ setup(
     description = DESCRIPTION,
     long_description = open(os.path.join(os.path.dirname(__file__), 'README')).read(),
     author = AUTHOR,
-    url = 'http://pypi.python.org/pypi/%s' % NAME,
-    packages = find_packages(exclude='test'),
     author_email = AUTHOR_EMAIL,
+    url = 'http://pypi.python.org/pypi/%s' % NAME,
+    packages = find_packages(exclude=['test']),
     platforms = 'Posix; MacOS X; Windows',
     install_requires = ['setuptools', 'tiddlyweb'],
     zip_safe = False
