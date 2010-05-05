@@ -21,8 +21,8 @@ setup(
     author = AUTHOR,
     author_email = AUTHOR_EMAIL,
     url = 'http://pypi.python.org/pypi/%s' % NAME,
-    packages = find_packages(exclude=['test']),
     platforms = 'Posix; MacOS X; Windows',
+    packages = find_packages(exclude=['test']),
     install_requires = ['setuptools', 'tiddlyweb'],
     zip_safe = False
     )
