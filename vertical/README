@@ -1,0 +1,6 @@
+This is a sample TiddlyWeb vertical, based on TiddlyWebWiki.
+
+* review setup.py parameters
+* review dependencies (install_requires in setup.py, init in __init__.py)
+* adjust configuration (config.py)
+* find and replace all instances of "sample"
